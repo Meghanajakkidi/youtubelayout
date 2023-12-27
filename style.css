@@ -1,0 +1,59 @@
+ul>li{
+    display: inline-block;
+    padding-left: 3%;
+    
+}
+
+.menubar{
+    height: 100px;
+    width: 100%;
+    
+
+}
+.rowcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+button{
+    height: 50px;
+    border: none;
+}
+.buttonrow{
+    display: flex;
+    gap: 40px;
+    
+}
+h3,h4{
+    text-shadow: 1px 1px 1px grey;
+}
+
+.container{
+    display: flex;
+}
+.youtubecolumns{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 80px;
+    column-gap: 30px;
+    margin: 20px;
+}
+.youtubecards{
+    width:300px;
+    height:250px;
+}
+img{
+    width:300px;
+    height:200px;
+}
+button:hover{
+ background-color: transparent;
+}
+body{
+    background-color:lavenderblush;
+}
+#home{
+    background-color: aqua;
+}
